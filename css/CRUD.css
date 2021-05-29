@@ -1,0 +1,318 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.TituloH2{
+    color: #2c698d;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+body{
+    color: rgb(77, 75, 75);
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100px;
+   
+    
+}
+.Logo{
+    background-color: #2c698d;
+    color: #fff;
+    padding: 20px 0 20px 50px;
+    width: 100%;
+}
+
+nav{
+    width: 50%;
+    text-align: right;
+    
+}
+h4 {
+    color: #fff;
+    width: 40%;
+    text-align: left;
+}
+nav a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.Logo img{
+    width: 32px;
+}
+nav, h4, .Logo{
+    display: inline-block;
+}
+
+/* Contenedor Nuevo*/
+.contenedor{
+    width: 100%;
+    margin: 0%;
+    padding: 40px 0 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/* Barra de Busqueda y botones Buscar y Nuevo*/
+.buscador{
+    width: 300px;
+    height:40px;
+}
+.tbcliente,.tbempleado{
+    margin: 0 5px;
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12pt;
+    border-radius: 5px;
+}
+.tbcliente{
+    background-color: #ffa822;
+    color: #000;
+}
+.tbcliente:hover{
+    color: #000;
+    border: 1px solid #ffa822;
+    background-color: #fff;
+    transition:  background-color .5s;
+    cursor: pointer;
+}
+.tbempleado{
+    background-color: #6422ff;
+    color: #fff;
+}
+.tbempleado:hover{
+    color: #000;
+    border: 1px solid #6422ff;
+    background-color: #fff;
+    transition:  background-color .5s;
+    cursor: pointer;
+}
+.tbempleado{
+    margin: 20px 0 20px 22%;
+}
+
+.btn_buscar, .boton_pregunta{
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12pt;
+    border-radius: 5px;
+}
+
+.btn_buscar{
+    background-color: #3c68e2;
+    color: #fff;
+
+}
+.btn_buscar:hover{
+    cursor: pointer;
+    border: 1px solid #3c68e2;
+    background-color: white;
+    color: #000;
+    transition: background-color .5s;
+}
+.boton_pregunta{
+    
+    background-color: #1b743c;
+    color: #fff;
+}
+.boton_pregunta:hover{
+    cursor: pointer;
+    border: 1px solid #1b743c;
+    color: #000;
+    background-color: #fff;
+    transition: background-color .5s;
+}
+/* Botones Nuevo Empleado y Nuevo Cliente*/
+.contenedor_nuevo .boton_cliente, .contenedor_nuevo .boton_empleado{
+    margin: 0 5px;
+    border: none;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10pt;
+    border-radius: 5px;
+}
+.contenedor_nuevo label{
+    padding: 0 5px 0 10px;
+}
+.contenedor_nuevo .boton_cliente{
+    background-color: #ffa822;
+    color: #000;
+}
+
+.boton_cliente:hover{
+    color: #000;
+    border: 1px solid #ffa822;
+    background-color: #fff;
+    transition:  background-color .5s;
+    cursor: pointer;
+}
+.contenedor_nuevo .boton_empleado{
+    background-color: #ff6150;
+    color: #000;
+}
+.boton_empleado:hover{
+    color: #000;
+    border: 1px solid #ff6150;
+    background-color: #fff;
+    transition: background-color .5s;
+    cursor: pointer;
+}
+/* Formulario Empleado*/
+.nuevo_empleado {
+    border: 1px solid silver;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+.nuevo_empleado form{
+    padding: 20px 0 0 0;
+}
+.nuevo_empleado label{
+    margin-top: 10px;
+    padding:30px;
+}
+
+.nuevo_empleado input{
+    width: 80%;
+   
+    margin:  10px 0 10px 10%;
+    height: 30px;
+}
+.boton-crear{
+    margin: 20px 0 20px 25px;
+    border: none;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14pt;
+    border-radius: 5px;
+    background-color: #ffa822;
+    color: #000;
+}
+.boton-crear:hover{
+    background-color: #ff6150;
+    color: #fff;
+    transition: background-color .5s, color .5s;
+}
+/*Formulario Cliente*/
+.nuevo_cliente {
+    border: 1px solid silver;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+.nuevo_cliente form{
+    padding: 20px 0 0 0;
+}
+.nuevo_cliente label{
+    margin-top: 10px;
+    padding:30px;
+}
+.nuevo_cliente select{
+    width: 80%;
+    height: 30px;
+    margin:  10px 0 10px 10%;
+}
+.nuevo_cliente input{
+    width: 80%;
+    margin:  10px 0 10px 10%;
+    height: 30px;
+}
+
+
+/* Tabla*/
+.contenedor_nuevo{
+    margin-left: 40px;
+    padding: 0%;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 0 1px 1px rgba(0,0,0,0.5);
+}
+.tabla_sql{
+    width: 800px;
+}
+.tabla_sql table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+table thead{
+    background-color: #2b4ead;
+    font-size: 10pt;
+    color: #fff;
+}
+table tbody{
+    background-color:#fff;
+    color: rgb(24, 21, 21);
+    font-size: 9pt;
+    color: #5c5d5d;
+}
+table td, th{
+    text-align: center;
+    border: 1px solid silver;
+    padding: 5px 5px 5px 5px;
+}
+/*Botones Tabla*/
+.btn-delete,.btn-update,.btn_delete,.btn_update{
+    border: none;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9pt;
+    border-radius: 2px;
+}
+.btn-delete,.btn_delete{
+    background-color: #1db1c5;
+    color: #dee0e6;
+}
+.btn-delete:hover,.btn_delete:hover{
+    color: #000;
+    border: 1px solid #1db1c5;
+    background-color: #fff;
+    transition: background-color .5s;
+
+}
+.btn-update,.btn_update{
+    background-color: #ff6150;
+    color: #dee0e6;
+}
+.btn-update:hover,.btn_update:hover{
+    color: #000;
+    border: 1px solid #ff6150;
+    background-color: #fff;
+    transition: background-color .5s;
+}
+
+.nuevo_cliente,.nuevo_empleado{
+    width: 300px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
