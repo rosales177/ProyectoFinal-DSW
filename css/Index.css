@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+
+/*Estilos predeterminados*/
 *{
     margin: 0%;
     padding: 0%;
@@ -24,6 +26,7 @@ body{
     color: rgb(77, 75, 75);
     font-family: 'Open Sans', sans-serif;
 }
+/*Header y cabezera*/
 header{
     margin: 0%;
     padding: 0%;
@@ -84,6 +87,7 @@ nav, h4, .Logo{
     position: absolute;
 
 }
+/* Sección Galeria*/
 .TituloH1{
     height: 300px;
 }
@@ -118,7 +122,7 @@ nav, h4, .Logo{
     color: rgb(77, 75, 75);
 }
 
-/*Seccion II*/
+/*Sección Especificaciones de la base de datos*/
 .contenedor_caracteristicas{
     padding-top: 200px;
     background-color: #E9E9E9;
@@ -167,7 +171,7 @@ nav, h4, .Logo{
     font-family: 'Roboto', sans-serif;
 }
 
-/* Seccion III*/
+/* Sección Herramientas utilizadas*/
  
 
 .contenedor3{
@@ -221,7 +225,7 @@ nav, h4, .Logo{
     font-size: 9pt;
     padding: 0 10px;
 }
-/*footer*/
+/*Pie de Página*/
 footer{
     background-color: #073b4c;
     padding: 60px 30px 0 30px;

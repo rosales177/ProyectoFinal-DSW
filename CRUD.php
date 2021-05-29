@@ -38,7 +38,7 @@
                         
                     </div>
 
-                   
+                   <!--Formulario desplegable del Cliente-->
                     <div class="nuevo_cliente" id="form_cliente">
                         <form id="form_clientes">
                         <input type="hidden" id='id'>
@@ -62,6 +62,7 @@
                         <button type="submit" id="crear_C" class="boton-crear">Crear</button>
                         </form>
                     </div>
+                    <!--Formulario desplegable del Empleado-->
                     <div class="nuevo_empleado" id="form_empleado">
                         <form id="form_empleados">
                         <label >Código:</label><br>
@@ -79,7 +80,7 @@
                         <button type="submit" id="crear_E" class="boton-crear">Crear</button>
                         </form>
                     </div>
-
+                    <!-- Tabla predeteminada del Cliente-->
                     <div class="tabla_sql" >
                         <table id="tb_cliente">
                             <thead>    
@@ -98,6 +99,7 @@
                             </thead>
                             <tbody id="task"></tbody>
                         </table>
+                        <!--Tabla del Empleado-->
                         <table class="tabla_empleado" id="tb_empleado">
                             <thead>
                                 <tr>

@@ -69,7 +69,7 @@
                                 de servicio de Internet y consta de los siguienes atributos :</p>
                             <lu>
                                 <li>1.- Datos Personales de los clientes.</li>
-                                <li>2.- Metodos de pago de los clientes</li>
+                                <li>2.- Datos de los empleados registrados</li>
                                 <li>3.- Credenciales de los administradores del portal</li>
                             </lu>
                             
